@@ -1,0 +1,42 @@
+<html><head>
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"> -->
+	<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"> -->
+	<link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
+	<link rel="stylesheet" type="text/css" href="st/theme.css">
+	<!-- <link rel="stylesheet" type="text/css" href="st/carbon.css"> -->
+    <link rel="stylesheet" type="text/css" href="st/prettify/prettify.css">
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+	<div class="container">
+        <!-- <h1>The Game</h1> -->
+        <p>Align same colored blocks by moving around the white blocks.</p> 
+		<div id="grid" class="row">
+			<!-- The puzzle will be placed here -->
+		</div>
+		<div id="icons" class="row_icons">
+			<div id="score_icon" class="icon"></div>
+			<div id="center">
+				<div id="stag" class="myfont">
+				+10  
+				</div>
+				<div id="score" class="myfont">
+				  0
+				</div>
+			</div>
+			<div id="goal_icon" class="icon"></div>
+			<div id="goal_val" class="icon_text">-12</div>
+			<div id="moves_icon" class="icon"></div>
+			<div id="moves_val" class="icon_text">-1</div>
+		</div>
+
+	</div>
+	<!-- Latest Sortable -->
+    <script src="./jquery.min.js"></script>
+	<script src="./Sortable.js"></script>
+	<script type="text/javascript" src="st/prettify/prettify.js"></script>
+	<script type="module" src="st/app.js"></script>
+</body></html>
